@@ -15,7 +15,7 @@ sudo chmod +x /usr/local/bin/terragrunt
 ## Requirements 
 - For a proof of concept it is not necessary to use an organization as this needs a domain use project only
 
-- Create Cloud Identity or Google WorkSpace (Recommended Cloud Identity) - **If you have domain Name only**
+- Create Cloud Identity or Google WorkSpace (Recommended Cloud Identity) - **If you have domain Name only and if you wanna use organization**
 
 > **For Cloud Identity Or Google Workspace a domain name is required**
 
