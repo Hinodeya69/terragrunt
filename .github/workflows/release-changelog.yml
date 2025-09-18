@@ -1,0 +1,24 @@
+name: Release Changelog
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  release-changelog:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Setup Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.x'
+
+      - name: Release Changelog
+        uses: tomtom-international/keepachangelog-action@v1
+        with:
+          publish: true
+          token: ${{ secrets.GITHUB_TOKEN }}
