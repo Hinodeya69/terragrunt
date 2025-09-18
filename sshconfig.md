@@ -1,6 +1,6 @@
 # Github Multi-Account
 > **In the event that you need to manage a personal account and a business account**
-- 1. Generate separate SSH keys for each account.
+- Generate separate SSH keys for each account.
 
 For the first account (“personal” or “accountName”):
 
