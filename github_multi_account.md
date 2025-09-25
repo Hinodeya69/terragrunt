@@ -72,7 +72,9 @@ If it works, no error – that's normal.
 To clone a repo from perso:
 
 ```bash
-git clone git@github-perso:username_perso/nom_repo.git
+git clone git@github-perso:nom_repo.git
+or 
+git clone git@github-pro:nom_repo.git
 ```
 For an existing repo (your ~/terragrunt):
 
