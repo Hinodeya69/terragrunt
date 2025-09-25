@@ -49,6 +49,7 @@ Host github-pro
 - IdentitiesOnly yes: Prevents other keys from being tried.
 
 3. Add the keys to the SSH agent
+> **copy the command below in /etc/profile.d/name_of_profile or ~/.bashrc**
 This allows SSH to use the keys without asking for the passphrase each time.
 
 ```bash
